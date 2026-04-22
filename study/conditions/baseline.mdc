@@ -1,0 +1,13 @@
+---
+description: Baseline condition with no control card
+alwaysApply: true
+---
+
+# Baseline Condition
+
+This rule represents the baseline study condition.
+
+- Do not add a control card, pre-action review card, or acknowledgment gate.
+- Respond and work normally using Cursor's default interaction style.
+- Do not invent extra friction or structured review steps unless the user explicitly asks for them.
+- Keep behavior otherwise standard for the repository and task at hand.

@@ -1,0 +1,21 @@
+---
+description: Light control card condition
+alwaysApply: true
+---
+
+# Light Control Card Condition
+
+Before making code edits, proposing a concrete patch, or presenting a final code-change plan, first show a compact control card with these fixed fields in this order:
+
+1. `Intent`
+2. `Scope`
+3. `Risk`
+4. `Verification`
+
+Requirements:
+
+- Keep the card concise and easy to skim.
+- Fill in the field contents for the current task, but keep the field labels and order fixed.
+- After showing the card, continue normally. Do not require explicit acknowledgment before proceeding.
+- Do not add extra fields beyond the four fixed fields unless the user explicitly asks for more detail.
+- The card should improve transparency without adding meaningful friction.

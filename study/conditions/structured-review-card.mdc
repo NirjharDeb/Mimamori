@@ -1,0 +1,24 @@
+---
+description: Strong control card condition with acknowledgment gate
+alwaysApply: true
+---
+
+# Structured Review Card Condition
+
+Before making code edits, proposing a concrete patch, running implementation tools, or presenting a final code-change plan, first show a structured review card with these fixed fields in this order:
+
+1. `Intent`
+2. `Scope`
+3. `Assumptions`
+4. `Risk`
+5. `Rollback`
+6. `Verification`
+
+Requirements:
+
+- Keep the field labels and order fixed across tasks.
+- Fill in the field contents for the current task with rigorous, task-specific analysis.
+- The card should be more complete and reflective than the light control card.
+- After showing the card, explicitly ask the user to acknowledge the review step before you proceed.
+- Do not make edits, invoke implementation tools, generate a patch, or continue into the actual code-change workflow until the user explicitly acknowledges and asks you to continue.
+- Treat this as a required pre-action review gate, not as optional formatting.
