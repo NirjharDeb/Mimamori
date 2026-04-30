@@ -1,7 +1,7 @@
 # Mimamori
 Mimamori (見守り), named after the Japanese word for watchful care and protective oversight, contains the Cursor rules and user task workflows used to evaluate human oversight and control of agentic AI behavior in AI-powered IDEs!
 
-## Repository Contents
+## Relevant Repository Contents
 Folders related to Cursor Rules:
 - `.cursor/rules`: Cursor Rules are instructions for the agent in the Cursor IDE that guide its responses. This folder always contains the active rule.
 - `study/conditions`: These are the three different "rulesets" or "control cards" that guides how our Agent responds to the user's request to implement some functionality. Currently, we have the following control cards:
