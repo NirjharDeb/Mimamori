@@ -11,5 +11,5 @@ Mimamori (見守り), named after the Japanese word for watchful care and protec
 - `scripts`: Contains a script to automatically set which type of control card we want to set active.
 
 ### User Task:
-- `seeded`: Inspired by Meta's AI Coding interviews, where interviewees are given a multi-file coding task to complete with an LLM, we provide a Python security authentication task (with unit tests) that has seeded traps the user must debug and resolve with the help of Cursor's LLM agent! Each user was either assigned the condition of no control card (baseline), light control card, or a strong control card (structured review card).
+- `seeded`: Inspired by [Meta's AI-Enabled Coding interviews](https://www.hellointerview.com/blog/meta-ai-enabled-coding), where interviewees are given a multi-file coding task to complete with an LLM, we provide a Python security authentication task (with unit tests) that has seeded traps the user must debug and resolve with the help of Cursor's LLM agent! Each user was either assigned the condition of no control card (baseline), light control card, or a strong control card (structured review card).
 - `golden`: Contains the correct, perfect version of the coding task that users are given to solve. During the experiment, the LLM does NOT have access to the golden folder (otherwise it could cheat!).
